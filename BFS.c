@@ -26,7 +26,7 @@ void main()
         visited[i]=0;
     }
     printf("\nEnter Graph Data in the Matrix Form:\n");
-    for(i=1;i<n;i++)
+    for(i=1;i<=n;i++)
     {
         for(j=1;j<=n;j++)
         {
