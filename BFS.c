@@ -36,7 +36,7 @@ void main()
     printf("\nEnter the Starting Vertex: ");
     scanf("%d",&v);
     visited[v]=1;
-    printf("\n%d",v);
+    printf("\n%d\t",v);
     bfs(v);
     getch();
 }
